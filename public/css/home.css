@@ -1,0 +1,146 @@
+body{
+    background-color: var(--color-gris-claro);
+}
+
+/* header */
+
+header{
+    background-color: var(--color-amarillo);
+    font-size: 12px;
+}
+
+.logo{
+    width: 50%;
+    height: 50%;
+    margin: 25px;
+}
+
+.barra-de-busqueda{
+    margin-left: 25px;
+}
+
+header input{
+    width: 205px;
+    height: 18px;
+}
+
+header button{
+    width: 22px;
+    height: 22px;
+}
+
+header p{
+    text-align: center;
+    margin: 20px;
+}
+
+/* barra de navegacion */
+
+nav ul{
+    margin-bottom: 25px;
+}
+
+.burger-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.burger-menu i{
+    background-color: var(--color-azul);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 23px;
+    margin-bottom: 17px;
+    padding: 10px;
+}
+
+/* main */
+
+main h3{
+    font-size: 24px;
+    color: var(--color-gris-oscuro);
+    margin: 35px 10px;
+}
+
+main article{
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 35px 5px;
+    height: 350px;
+}
+
+main article img{
+    width: 280px;
+    margin: 10px;
+}
+
+main article div{
+    border-top: 1px solid var(--color-gris-claro);
+    padding-top: 10px;
+}
+
+main p{
+    display: inline;
+    margin-left: 10px;
+}
+
+main .precio{
+    font-size: 18px;
+}
+
+main .descuento{
+    font-size: 16px;
+    color: var(--color-verde);
+}
+
+main i{
+    color: var(--color-verde);
+    font-size: 20px;
+    padding: 5px;
+    border: 1px solid var(--color-verde);
+    border-radius: 50%;
+    position: relative;
+    bottom: 50px;
+    left: 250px;
+    background-color: #fff;
+}
+
+main h4{
+    font-size: 16px;
+    display: none;
+}
+
+/* footer */
+
+footer{
+    background-color: #fff;
+    padding: 50px 0 10px;
+}
+
+footer section{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+footer i{
+    color: var(--color-celeste);
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+footer h4, footer p{
+    color: var(--color-gris-oscuro);
+    margin: 5px 0;
+}
+
+footer section p{
+    font-size: 12px;
+    width: 250px;
+    margin: auto;
+}
+
+footer .copyright{
+    font-size: 12px;
+    margin: 15px;
+}
